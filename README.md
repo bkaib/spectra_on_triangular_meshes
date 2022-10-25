@@ -1,4 +1,10 @@
-# Project Description
+# Project Description - Scale analysis on unstructured grids: Kinetic energyand dissipation power spectra on triangular meshes
+## Plain Language Summary
+To better understand the physical processes that drive and define the circulation 
+in our oceans, it is necessary to analyse the temporal and spatial scales on which these processes act. 
+A classical method to investigate the spatial scale behaviour is the Fourier analysis which splits any given data into waves of different amplitudes and wavelengths.
+Mathematically this requires data on an equidistantly spaced grid. However, many ocean models apply triangular or other irregular grids for their computations of oceanic flows.
+In this study, we describe the advantages and disadvantages of applying Fourier analysis for models that use triangular meshes, with prior interpolation of data to regularly spaced rectangular meshes. We also introduce two other methods that can analyse the distribution of kinetic energy and kinetic energy dissipation across scales without interpolation. The results show that one needs to be very careful when choosing a specific scale analysis and, potentially, an interpolation method for triangular grids, especially when it comes to analysing the process of kinetic energy dissipation.
 
 # Structure
 
