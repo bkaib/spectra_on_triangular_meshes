@@ -6,6 +6,8 @@ A classical method to investigate the spatial scale behaviour is the Fourier ana
 Mathematically this requires data on an equidistantly spaced grid. However, many ocean models apply triangular or other irregular grids for their computations of oceanic flows.
 In this study, we describe the advantages and disadvantages of applying Fourier analysis for models that use triangular meshes, with prior interpolation of data to regularly spaced rectangular meshes. We also introduce two other methods that can analyse the distribution of kinetic energy and kinetic energy dissipation across scales without interpolation. The results show that one needs to be very careful when choosing a specific scale analysis and, potentially, an interpolation method for triangular grids, especially when it comes to analysing the process of kinetic energy dissipation.
 
+This repository provides source-code for interpolation, Fourier-analysis of spectra and calculation of total energetics within the channel.
+
 # Structure
 
 - common (package): Contains calculational tools used during preprocessing of data
